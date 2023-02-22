@@ -12,11 +12,14 @@
   line-height: 16px;
 }
 
-.count__minus {
+.minus {
   width: 8px;
 }
+.minus:disabled{
+	cursor: default;
+}
 
-.count__plus {
+.plus {
   width: 8px;
 }
 
@@ -31,11 +34,11 @@
     line-height: 22px;
   }
 
-  .count__minus {
+  .minus {
     width: 10px;
   }
 
-  .count__plus {
+  .plus {
     width: 10px;
   }
 }
