@@ -1,7 +1,20 @@
-import Container from "./components/Container/Container";
+import Header from "./components/Header/Header";
+import Navigation from "./components/Navigation/Navigation";
+import React from "react";
+import Catalog from "./components/Catalog/Catalog";
+import Footer from "./components/Footer/Footer";
 
-function App() {
-	return <Container className= 'navigation__container/>;
-}
+const App = () => {
+	return (
+		<>
+			<Header />
+			<main>
+				<Navigation />
+				<Catalog />
+			</main>
+			<Footer />
+		</>
+	);
+};
 
 export default App;
