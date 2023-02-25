@@ -1,6 +1,6 @@
 import {configureStore, getDefaultMiddleware} from "@reduxjs/toolkit";
-import categoryReducer from "./category/categorySlice";
-import productReducer from "./product/productSlice";
+import categoryReducer from "./category/categorySlice.js";
+import productReducer from "./product/productSlice.js";
 import orderReducer, {localStorageMiddleware} from "./order/orderSlice";
 
 export const store = configureStore({
