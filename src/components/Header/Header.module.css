@@ -1,13 +1,10 @@
 .header {
-  background-image: url("data:image/svg+xml, %3Csvg id='header' width='200' height='200' viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='100' cy='100' r='100' fill='%23FFAB08'/%3E%3C/svg%3E");
+  background-image: url('../../assets/img/bg.svg');
   background-size: 611px;
   background-position: bottom;
   background-repeat: no-repeat;
   padding: 24px 0 30px;
   margin-bottom: 30px;
-}
-.container {
-	margin: 0 auto;
 }
 
 .logo {
@@ -18,9 +15,9 @@
 
 .wrapper {
   padding-bottom: 246px;
-  background: url('../../assets//img/pic.svg') bottom/227px no-repeat;
+  background: url('../../assets/img/pic.svg') bottom/227px no-repeat;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .title {
@@ -33,7 +30,7 @@
 }
 
 .red {
-  color: #FF5C00;
+  color: #ff5c00;
 }
 
 .appeal {
@@ -61,7 +58,6 @@
     min-height: 190px;
   }
 }
-
 
 @media (min-width: 768px) {
   .header {
@@ -121,8 +117,7 @@
   }
 }
 
-
-@media (min-width: 1920px) {
+@media (min-width: 1925px) {
   .header {
     background-size: 4660px;
   }

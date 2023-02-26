@@ -1,5 +1,5 @@
 import {createAsyncThunk, createSlice} from "@reduxjs/toolkit";
-import {API_URL, POSTFIX} from "../../const";
+import {API_URI, POSTFIX} from "../../const";
 
 const initialState = {
 	category: [],
@@ -8,7 +8,7 @@ const initialState = {
 };
 
 export const categoryRequestAsync = createAsyncThunk("category/fetch", () =>
-	fetch(`${API_URL}${POSTFIX}/category`)
+	fetch(`${API_URI}${POSTFIX}/category`)
 		.then((req) => req.json())
 		.catch((error) => ({error}))
 );

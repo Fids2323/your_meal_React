@@ -1,11 +1,11 @@
 .footer {
   padding: 24px 0;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .logo {
   width: 196px;
-  color: #FF7020;
+  color: #ff7020;
   margin-bottom: 24px;
 }
 
@@ -39,17 +39,15 @@
 }
 
 .sn {
-  color: #FF7020;
+  color: #ff7020;
 }
 
 .phone:hover,
-.phone:focus, 
+.phone:focus,
 .sn:hover,
 .sn:focus {
-  color: #FFAB08;
+  color: #ffab08;
 }
-
-
 
 .development {
   display: flex;
@@ -75,12 +73,10 @@
   }
 }
 
-
 @media (min-width: 1024px) {
-
   .content {
     display: grid;
-    grid-template-areas: 
+    grid-template-areas:
       'logo address'
       'development .';
     gap: 35px;
@@ -119,9 +115,7 @@
   .phone {
     font-size: 16px;
   }
-
 }
-
 
 @media (min-width: 1360px) {
   .content {

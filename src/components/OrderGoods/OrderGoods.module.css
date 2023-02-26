@@ -3,13 +3,18 @@
   align-items: center;
   gap: 6px;
   padding: 10px 0;
-  border-bottom: 1px solid #F2F2F3;
+  border-bottom: 1px solid #f2f2f3;
 }
 
 .item:first-child {
-  border-top: 1px solid #F2F2F3;
+  border-top: 1px solid #f2f2f3;
 }
 
+.image {
+  width: 64px;
+  height: 52px;
+  border-radius: 8px;
+}
 
 .goods {
   flex-grow: 1;
@@ -21,21 +26,15 @@
 .title {
   font-weight: 400;
   margin-bottom: 1px;
-
 }
 
 .weight {
-  color: #B1B1B1;
+  color: #b1b1b1;
   margin-bottom: 6px;
-}
-.image {
-  width: 64px;
-  height: 52px;
-  border-radius: 8px;
 }
 
 @media (min-width: 1024px) {
-	.item  {
+  .item {
     padding: 15px 0;
   }
 }

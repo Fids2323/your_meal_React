@@ -15,14 +15,14 @@
 
 @media (min-width: 768px) {
   .container {
-    --padding-container: 64px
+    --padding-container: 64px;
   }
 }
 
 @media (min-width: 1024px) {
   .container {
     --container: 960px;
-    --padding-container: 32px
+    --padding-container: 32px;
   }
 }
 
